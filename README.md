@@ -5,7 +5,7 @@
 
 ## Running
 ```sh
-cd Cutlify
+cd Cutlify-API
 npm i
 npm run dev
 ```
