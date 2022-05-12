@@ -4,8 +4,8 @@ import morgan from 'morgan';
 import bodyParser from 'body-parser';
 import 'dotenv/config';
 
-import controller from './Controllers';
-import cronJob from './util/cron';
+import shortener from './controllers/shortenerController';
+import cronJob from './services/cronService';
 
 const jsonParser = bodyParser.json();
 
@@ -16,7 +16,7 @@ const app = express();
 app.use(cors());
 app.use(jsonParser);
 app.use(morgan());
-app.use('/', controller);
+app.use('/', shortener);
 
 app.listen(PORT, () => {
   cronJob.start();
