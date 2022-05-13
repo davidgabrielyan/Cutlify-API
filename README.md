@@ -3,7 +3,7 @@
 
 ## ✨The application is currently live✨
 
-##### version 0.1.0 is currently live! you can use it via this link 👉 https://cutlify.herokuapp.com
+##### version 0.1.0 is currently live! The API host is here 👉 https://cutlify.herokuapp.com
 
 ###### created by David Gabrielyan
 
@@ -18,7 +18,8 @@ npm run dev
 
 To generate a short link just run:
 ```sh
-POST http://localhost:3000
+POST http://localhost:3000 # if using locally
+POST http://cutlify.herokuapp.com # if using live version
 ```
 with a request body like:
 ```
@@ -29,7 +30,8 @@ with a request body like:
 
 The response will look like this:
 ```
-{ "cutlifiedUrl": "http://localhost:3000/_v5mgj" }
+{ "cutlifiedUrl": "http://localhost:3000/_v5mgj" } # if using locally
+{ "cutlifiedUrl": "https://cutlify.herokuapp.com/_v5mgj" } # if using live version
 ```
 
 Then just use it in the browser by going to that link: it will redirect to the original link.
