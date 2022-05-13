@@ -36,10 +36,17 @@ The response will look like this:
 
 Then just use it in the browser by going to that link: it will redirect to the original link.
 ## Limitations
-> Every generated link is saved to the cache. After application
-> restart it will still be available, but the TTL (time to live)
-> for every url is 24 hours. You can change that setting from
-> ".env" (variable name - "TTL", set in hours).
+> Every generated link is saved to MongoDB. After any kind of
+> failure it will still be available, but the TTL (time to live)
+> for every url is 24 hours. Then it will be deleted. When using
+> locally, you can change that setting from ".env" (variable name - "TTL", set in hours).
+
+#### Note 2.0 !
+> This application is open source, free-to-use and is using free
+> tiers of all third-party service. Please consider, that it
+> makes sense to use it only for educational, some kind of testing, etc.
+> purposes, but not for production!
+
 
 ##### Technologies/libraries used:
 - Node.js
