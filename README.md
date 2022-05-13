@@ -42,8 +42,8 @@ Then just use it in the browser by going to that link: it will redirect to the o
 > locally, you can change that setting from ".env" (variable name - "TTL", set in hours).
 
 #### Note 2.0 !
-> This application is open source, free-to-use and is using free
-> tiers of all third-party service. Please consider, that it
+> The live version is open source, free-to-use and is using free
+> tiers of all third-party services. Please consider, that it
 > makes sense to use it only for educational, some kind of testing, etc.
 > purposes, but not for production!
 
