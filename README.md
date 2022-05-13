@@ -1,6 +1,10 @@
 # Cutlify - link shortener
 ## Basic link shortener API for use anywhere!
 
+## ✨The application is currently live✨
+
+##### version 0.1.0 is currently live! you can use it via this link 👉 https://cutlify.herokuapp.com
+
 ###### created by David Gabrielyan
 
 ## Running
