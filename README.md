@@ -66,6 +66,6 @@ Then just use it in the browser by going to that link: it will redirect to the o
 
 ***Public license, free software...***
 ***
-Check out my working profile on [linkedin](https://www.linkedin.com/in/david-gabrielyan-87428b168/) 	🙌
-Also you can take a look on my [Portfolio website](https://davidgabrielyan.netlify.app)👨‍🎓	
+###### Check out my working profile on [linkedin](https://www.linkedin.com/in/david-gabrielyan-87428b168/) 	🙌
+###### Also you can take a look on my [Portfolio website](https://davidgabrielyan.netlify.app)👨‍🎓	
 
