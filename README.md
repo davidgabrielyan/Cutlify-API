@@ -32,7 +32,7 @@ Then just use it in the browser by going to that link: it will redirect to the o
 ## Limitations
 > Every generated link is saved to the cache. After application
 > restart it will still be available, but the TTL (time to live)
-> for every url is 12 hours. You can change that setting from
+> for every url is 24 hours. You can change that setting from
 > ".env" (variable name - "TTL", set in hours).
 
 ##### Technologies/libraries used:
@@ -40,10 +40,12 @@ Then just use it in the browser by going to that link: it will redirect to the o
 - Express.js
 - cron
 - nodemon
-- cacache
+- MongoDB (Atlas)
+- Mongoose
 - babel
 - eslint
 - dotenv
+- Jest
 
 ## License
 
